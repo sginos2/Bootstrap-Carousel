@@ -5,12 +5,54 @@
 }
 
 #carouselExampleIndicators {
-    width: 600px;
-    height: 400px;
+    width: 80%;
     margin: 0 auto;
 }
 
-.cards {
+.carousel-inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.threecards {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+a {
+    color: white; 
+}
+
+@media (min-width: 576px) { 
+    .threecards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+}
+
+@media (min-width: 768px) {
+    .threecards {
+        display: flex;
+        flex-direction: row;
+        align-items: unset;
+    }
+}
+
+@media (min-width: 992px) {
+    .threecards {
+        display: flex;
+        flex-direction: row;
+        align-items: unset;
+    }
+}
+
+@media (min-width: 1200px) {
+    .threecards {
+        display: flex;
+        flex-direction: row;
+        align-items: unset;
+    }
 }
