@@ -1,4 +1,16 @@
 .maincontainer {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    background-color: #dadfea;
+}
+
+#carouselExampleIndicators {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
 }
